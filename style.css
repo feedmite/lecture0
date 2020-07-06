@@ -25,14 +25,34 @@ th, td{
 th{
   background-color: lightgrey;
 }
-#middle{
+#ordered{
    background-color: lightblue;
    text-align:center;
    color: blue;
    border: 2px solid blue;
  }
+ #unordered{
+    background-color: lightblue;
+    text-align:center;
+    color: blue;
+    border: 2px solid blue;
+  }
 .name{
   font-weight: 700;
   font-size: 120px;
   color: blue;
+}
+input[type='text']{
+  background-color: lightblue;
+  font-weight: bold;
+}
+input[type='password']{
+  background-color: #faf398;
+}
+button{
+  width: 100px;
+  background-color: red;
+}
+button:hover{
+  background-color: green;
 }
